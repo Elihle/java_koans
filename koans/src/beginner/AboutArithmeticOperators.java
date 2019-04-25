@@ -14,7 +14,7 @@ public class AboutArithmeticOperators {
         assertEquals(2 + 3 * 4, 14);
         assertEquals((2 + 3) * 4, 20);
         assertEquals(2 * 3 + 4, 10);
-        assertEquals(2 - 3 + 4, 3); // answer is suppose to be 5
+        assertEquals(2 - 3 + 4, 3);
         assertEquals(2 + 4 / 2, 4);
         assertEquals((2 + 4) / 2, 3);
     }
@@ -30,7 +30,7 @@ public class AboutArithmeticOperators {
     @Koan
     public void minusMinusVariableMinusMinus() {
         int i = 1;
-        assertEquals(--i, 0); //confused
+        assertEquals(--i, 0);
         assertEquals(i, 0);
         assertEquals(i--, 0);
         assertEquals(i, -1);
